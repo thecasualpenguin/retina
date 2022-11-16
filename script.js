@@ -6,7 +6,6 @@ let formInputs = document.getElementById("customDevice").elements;
 handleCalculate();
 
 // attach listeners
-formInputs["calculate"].addEventListener("click", handleCalculate);
 addEventListener("keyup", handleCalculate);
 addEventListener("keydown", handleCalculate); // in case you hold it and don't release
 
